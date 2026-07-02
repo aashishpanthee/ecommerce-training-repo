@@ -1,7 +1,8 @@
-import "./App.css";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import ProductGrids from "./components/ProductGrids";
+import './App.css';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import ProductGrids from './components/ProductGrids';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductGrids />
+      <Footer />
     </section>
   );
 }
