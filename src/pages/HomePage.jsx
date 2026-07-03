@@ -7,10 +7,8 @@ import ProductGrids from '../components/ProductGrids';
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <ProductGrids />
-      <Footer />
     </>
   );
 };

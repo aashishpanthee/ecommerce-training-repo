@@ -1,8 +1,8 @@
 export const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Products", href: "#", current: false },
-  { name: "Teams", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Products", href: "/products", current: false },
+  { name: "Teams", href: "/teams", current: false },
+  { name: "Contact", href: "/contact", current: false },
 ];
 
 export const products = [
