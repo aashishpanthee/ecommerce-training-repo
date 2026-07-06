@@ -9,7 +9,7 @@ export const products = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/products/1",
     imageSrc:
       "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -19,7 +19,7 @@ export const products = [
   {
     id: 2,
     name: "Basic Tee",
-    href: "#",
+    href: "/products/2",
     imageSrc:
       "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-02.jpg",
     imageAlt: "Front of men's Basic Tee in white.",
@@ -29,7 +29,7 @@ export const products = [
   {
     id: 3,
     name: "Basic Tee",
-    href: "#",
+    href: "/products/3",
     imageSrc:
       "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-03.jpg",
     imageAlt: "Front of men's Basic Tee in dark gray.",
@@ -39,7 +39,7 @@ export const products = [
   {
     id: 4,
     name: "Artwork Tee",
-    href: "#",
+    href: "/products/4",
     imageSrc:
       "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-04.jpg",
     imageAlt:
@@ -94,7 +94,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 1,
     name: 'Earthen Bottle',
-    href: '#',
+    href: '/products/1',
     price: '$48',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
@@ -102,7 +102,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 2,
     name: 'Nomad Tumbler',
-    href: '#',
+    href: '/products/2',
     price: '$35',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
@@ -110,7 +110,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 3,
     name: 'Focus Paper Refill',
-    href: '#',
+    href: '/products/3',
     price: '$89',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
@@ -118,7 +118,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 4,
     name: 'Machined Mechanical Pencil',
-    href: '#',
+    href: '/products/4',
     price: '$35',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -126,7 +126,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 5,
     name: 'Focus Card Tray',
-    href: '#',
+    href: '/products/5',
     price: '$64',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-05.jpg',
     imageAlt: 'Paper card sitting upright in walnut card holder on desk.',
@@ -134,7 +134,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 6,
     name: 'Focus Multi-Pack',
-    href: '#',
+    href: '/products/6',
     price: '$39',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-06.jpg',
     imageAlt: 'Stack of 3 small drab green cardboard paper card refill boxes with white text.',
@@ -142,7 +142,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 7,
     name: 'Brass Scissors',
-    href: '#',
+    href: '/products/7',
     price: '$50',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-07.jpg',
     imageAlt: 'Brass scissors with geometric design, black steel finger holes, and included upright brass stand.',
@@ -150,7 +150,7 @@ export const LIST_OF_PRODUCTS = [
   {
     id: 8,
     name: 'Focus Carry Pouch',
-    href: '#',
+    href: '/products/8',
     price: '$32',
     imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-08.jpg',
     imageAlt: 'Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.',
