@@ -26,9 +26,9 @@ const ProductsPage = () => {
     fetchProducts();
   }, []);
 
-  const filteredProducts = products
-    .slice(0, 12)
-    .filter((product) => product.title?.toLowerCase().includes(searchTerm.toLowerCase().trim()));
+  const filteredProducts = products.filter((product) =>
+    product.title?.toLowerCase().includes(searchTerm.toLowerCase().trim()),
+  );
 
   if (loading) {
     return (
