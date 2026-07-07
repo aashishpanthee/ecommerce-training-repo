@@ -3,6 +3,7 @@ export const navigation = [
   { name: "Products", href: "/products" },
   { name: "Teams", href: "/teams" },
   { name: "Contact", href: "/contact" },
+  { name: "Create Product", href: "/create-product" }
 ];
 
 export const products = [
