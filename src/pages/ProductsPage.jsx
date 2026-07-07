@@ -54,7 +54,7 @@ const ProductsPage = () => {
     <div className="bg-linear-to-b from-slate-50 via-white to-slate-100">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] backdrop-blur sm:p-8">
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-linear-to-r from-emerald-400 via-cyan-400 to-sky-500" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-[#413C65]" />
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">Catalog</p>
@@ -71,7 +71,7 @@ const ProductsPage = () => {
 
           <label
             htmlFor="product-search"
-            className="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 shadow-sm transition focus-within:border-sky-400 focus-within:bg-white focus-within:ring-4 focus-within:ring-sky-100"
+            className="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 shadow-sm transition focus-within:border-[#413C65] focus-within:bg-white focus-within:ring-1 focus-within:ring-[#413C65]"
           >
             <svg
               aria-hidden="true"
