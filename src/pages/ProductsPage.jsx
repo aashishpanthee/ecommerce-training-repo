@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import axiosInstance from '../axios/index.js';
+import ProductCard from '../components/ProductCard.jsx';
 
 const ProductsPage = () => {
   const [products, setProducts] = useState([]);
@@ -100,25 +100,7 @@ const ProductsPage = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {filteredProducts.length > 0 ? (
-            filteredProducts.map((product) => (
-              <Link key={product.id} to={`/products/${product.id}`} className="group relative block">
-                <img
-                  alt={product.title}
-                  src={product.images?.[0] || 'https://via.placeholder.com/300'}
-                  className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
-                />
-                <div className="mt-4 flex justify-between">
-                  <div>
-                    <h3 className="text-sm text-gray-700">
-                      <span aria-hidden="true" className="absolute inset-0" />
-                      {product.title}
-                    </h3>
-                    <p className="mt-1 text-sm text-gray-500">{product.category?.name}</p>
-                  </div>
-                  <p className="text-sm font-medium text-gray-900">${product.price}</p>
-                </div>
-              </Link>
-            ))
+            filteredProducts.map((product) => <ProductCard key={product.id} product={product} />)
           ) : (
             <div className="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white/70 px-6 py-12 text-center text-slate-600 shadow-sm">
               No products match “{searchTerm.trim()}”.
